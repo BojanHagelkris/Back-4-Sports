@@ -46,7 +46,17 @@
   #showcase .showcase-container,
   #home-articles .articles-container,
   #main-footer .footer-content {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+  }
+  #home-articles .articles-container .card {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+    grid-column: 1 / span 2;
+    align-items: center;
   }
   #main-footer .footer-content > *:last-child {
     grid-column: 1;
