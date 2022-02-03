@@ -12,6 +12,7 @@
   #main-nav .logo {
     justify-self: center;
   }
+
   #main-nav ul li a {
     padding: 0.45rem;
   }
@@ -26,7 +27,7 @@
     flex-direction: column;
   }
   #home-articles .articles-container .card {
-    height: 24vh;
+    height: 37vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
@@ -57,6 +58,9 @@
     grid-gap: 1rem;
     grid-column: 1 / span 2;
     align-items: center;
+  }
+  #home-articles .articles-container .card2 .category-sports {
+    width: 20%;
   }
   #main-footer .footer-content > *:last-child {
     grid-column: 1;
